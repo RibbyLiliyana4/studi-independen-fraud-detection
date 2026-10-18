@@ -1,9 +1,7 @@
-
 # 🚀 Financial Fraud Detection & Transaction Intelligence System
 
 <div align="center">
 
-<!-- Badge Status dan Teknologi yang Bersih dan Profesional -->
 [![Status: Coming Soon](https://img.shields.io/badge/Status-Active%20Development-orange?style=for-the-badge&logo=github)](https://github.com/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -12,35 +10,35 @@
 
 </div>
 
-> **Purwarupa Sistem Intelijen Transaksi Finansial** berbasis *Machine Learning* tingkat lanjut, rekayasa fitur matematika keuangan, evaluasi sensitif biaya (*cost-sensitive evaluation*), serta dilengkapi dengan *Explainable AI* (SHAP) dan modul pelindungan data pribadi[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span).
+> **Purwarupa Sistem Intelijen Transaksi Finansial** berbasis *Machine Learning* tingkat lanjut, rekayasa fitur matematika keuangan, evaluasi sensitif biaya (*cost-sensitive evaluation*), serta dilengkapi dengan *Explainable AI* (SHAP) dan modul pelindungan data pribadi.
 
 ---
 
 ## 📌 Tentang Proyek
-Proyek akhir ini dikembangkan sebagai bagian dari program Studi Independen Bersertifikat bersama **PT Vinix Seven Aurum (VINIX7)** pada divisi *Python Data Science Engineer*[span_2](start_span)[span_2](end_span). Sistem ini dirancang untuk mendeteksi anomali penipuan transaksi keuangan (seperti *account takeover* dan pengurasan saldo) pada dataset simulasi transaksi skala besar (**PaySim**) serta divalidasi dengan dataset eksternal[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span).
+Proyek akhir ini dikembangkan sebagai bagian dari program Studi Independen Bersertifikat bersama **PT Vinix Seven Aurum (VINIX7)** pada divisi *Python Data Science Engineer*. Sistem ini dirancang untuk mendeteksi anomali penipuan transaksi keuangan (seperti *account takeover* dan pengurasan saldo) pada dataset simulasi transaksi skala besar (**PaySim**) serta divalidasi dengan dataset eksternal.
 
-Berbeda dari sistem deteksi konvensional yang hanya berfokus pada akurasi metrik atau aturan statis (*rule-based*), sistem ini menguji performa model secara empiris melalui pendekatan berbasis biaya bisnis (*expected loss*), serta menjaga akuntabilitas keputusan melalui transparansi model[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span).
+Berbeda dari sistem deteksi konvensional yang hanya berfokus pada akurasi metrik atau aturan statis (*rule-based*), sistem ini menguji performa model secara empiris melalui pendekatan berbasis biaya bisnis (*expected loss*), serta menjaga akuntabilitas keputusan melalui transparansi model.
 
 ---
 
 ## 🛠️ Arsitektur & Fitur Utama (Coming Soon)
 
-*   🔒 **Lapisan Etika & Pelindungan Data**: Implementasi pseudonimisasi dan *masking* atribut identitas mengacu pada **Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)**[span_8](start_span)[span_8](end_span).
+*   🔒 **Lapisan Etika & Pelindungan Data**: Implementasi pseudonimisasi dan *masking* atribut identitas mengacu pada **Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)**.
 *   📊 **Rekayasa Fitur Matematika Keuangan**: 
-    *   *Error Balance* (deviasi buku besar pengirim/penerima)[span_9](start_span)[span_9](end_span).
-    *   Rasio pengurasan saldo (*balance drainage ratio*)[span_10](start_span)[span_10](end_span).
-    *   Kecepatan perputaran dana (*velocity*) pada rekening tujuan[span_11](start_span)[span_11](end_span).
-    *   Indikator penyimpangan distribusi digit pertama (*Benford's Law*)[span_12](start_span)[span_12](end_span).
+    *   *Error Balance* (deviasi buku besar pengirim/penerima).
+    *   Rasio pengurasan saldo (*balance drainage ratio*).
+    *   Kecepatan perputaran dana (*velocity*) pada rekening tujuan.
+    *   Indikator penyimpangan distribusi digit pertama (*Benford's Law*).
 *   ⚖️ **Perbandingan 4 Skema Eksperimen**:
-    *   **Eksperimen A:** Baseline *Rule-Based* (Sistem ambang *IF-THEN* industri)[span_13](start_span)[span_13](end_span).
-    *   **Eksperimen B:** XGBoost pada fitur mentah (*raw features*) dengan *SMOTE* vs *Class Weighting*[span_14](start_span)[span_14](end_span).
-    *   **Eksperimen C:** XGBoost pada fitur rekayasa matematika keuangan[span_15](start_span)[span_15](end_span)[span_16](start_span)[span_16](end_span).
-    *   **Eksperimen D:** *Autoencoder* untuk deteksi anomali tak terawasi (*unsupervised anomaly detection*)[span_17](start_span)[span_17](end_span).
-*   💰 **Evaluasi Sensitif Biaya (*Cost-Sensitive Evaluation*)**: Optimasi ambang batas keputusan (*decision threshold*) berbasis kerangka *Expected Loss* untuk meminimalkan kerugian bersih[span_18](start_span)[span_18](end_span)[span_19](start_span)[span_19](end_span).
-*   🔍 **Explainable AI (XAI)**: Integrasi **SHAP** untuk menyajikan atribusi kontribusi fitur pada setiap transaksi yang ditandai sebagai dasar akuntabilitas keputusan[span_20](start_span)[span_20](end_span)[span_21](start_span)[span_21](end_span).
+    *   **Eksperimen A:** Baseline *Rule-Based* (Sistem ambang *IF-THEN* industri).
+    *   **Eksperimen B:** XGBoost pada fitur mentah (*raw features*) dengan *SMOTE* vs *Class Weighting*.
+    *   **Eksperimen C:** XGBoost pada fitur rekayasa matematika keuangan.
+    *   **Eksperimen D:** *Autoencoder* untuk deteksi anomali tak terawasi (*unsupervised anomaly detection*).
+*   💰 **Evaluasi Sensitif Biaya (*Cost-Sensitive Evaluation*)**: Optimasi ambang batas keputusan (*decision threshold*) berbasis kerangka *Expected Loss* untuk meminimalkan kerugian bersih.
+*   🔍 **Explainable AI (XAI)**: Integrasi **SHAP** untuk menyajikan atribusi kontribusi fitur pada setiap transaksi yang ditandai sebagai dasar akuntabilitas keputusan.
 *   🚀 **Deployment & Dasbor**: 
-    *   **REST API** backend menggunakan `FastAPI` lengkap dengan dokumentasi `Swagger`[span_22](start_span)[span_22](end_span).
-    *   **Interactive Dashboard** menggunakan `Streamlit` untuk pemantauan aliran transaksi secara *real-time* dan simulatif[span_23](start_span)[span_23](end_span).
+    *   **REST API** backend menggunakan `FastAPI` lengkap dengan dokumentasi `Swagger`.
+    *   **Interactive Dashboard** menggunakan `Streamlit` untuk pemantauan aliran transaksi secara *real-time* dan simulatif.
 
 ---
 
@@ -57,6 +55,7 @@ financial-fraud-detection/
 ├── reports/               # Laporan teknikal & dokumentasi eksperimen
 ├── requirements.txt       # Daftar pustaka Python
 └── README.md              # Dokumentasi proyek
+
 
 📅 Roadmap & Linimasa Pengembangan
 <div align="center">
