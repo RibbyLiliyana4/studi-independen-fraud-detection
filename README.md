@@ -56,18 +56,15 @@ financial-fraud-detection/
 ├── requirements.txt       # Daftar pustaka Python
 └── README.md              # Dokumentasi proyek
 
-
 📅 Roadmap & Linimasa Pengembangan
-<div align="center">
 | Status | Fase / Minggu | Kegiatan Utama |
-| :---: | :--- | :__ |
+|---|---|---|
 | 🟢 | Minggu 1-2 | Akuisisi data, eksplorasi SQL lanjutan, dan pembersihan data skala besar (PaySim). |
 | 🟢 | Minggu 3-4 | Analisis statistik, uji hukum Benford, EDA, dan perancangan lapisan etika data. |
 | ⏳ | Minggu 5-6 | Rekayasa fitur matematika keuangan, pembangunan baseline rule-based, dan pelatihan XGBoost. |
 | ⏳ | Minggu 7-8 | Implementasi model unsupervised (Autoencoder) & evaluasi sensitif biaya. |
 | ⏳ | Minggu 9-11 | Integrasi XAI (SHAP), REST API FastAPI, dasbor Streamlit, & laporan akhir. |
 (Legenda: 🟢 Selesai / Sedang Berjalan | ⏳ Segera Hadir)
-</div>
 👥 Tim Pengembang
  * Ribby Liliyana Susan (24031554041) - S1 Sains Data, Universitas Negeri Surabaya
  * Mitra Industri: PT Vinix Seven Aurum (VINIX7) – Divisi Python Data Science Engineer
